@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="12dp"
+    android:background="@drawable/bg_panel">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="34dp"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/tab_tcl" android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_marginEnd="8dp" android:gravity="center"
+            android:text="TCL" android:textSize="15sp" android:textStyle="bold"
+            android:background="@drawable/tab_off" android:textColor="#B3FFFFFF" />
+        <TextView android:id="@+id/tab_lg" android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_marginEnd="8dp" android:gravity="center"
+            android:text="LG" android:textSize="15sp" android:textStyle="bold"
+            android:background="@drawable/tab_on" android:textColor="#FFFFFFFF" />
+        <ImageView android:id="@+id/btn_theme" android:layout_width="34dp" android:layout_height="34dp"
+            android:padding="8dp" android:src="@drawable/ic_palette" android:background="@drawable/tab_off" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:layout_marginTop="8dp" android:orientation="horizontal">
+        <ImageView android:id="@+id/btn_power" style="@style/Tile" android:src="@drawable/ic_power" android:background="@drawable/tile_red" />
+        <ImageView android:id="@+id/btn_vol_down" style="@style/Tile" android:src="@drawable/ic_vol_down" android:background="@drawable/tile" />
+        <ImageView android:id="@+id/btn_vol_up" style="@style/Tile" android:src="@drawable/ic_vol_up" android:background="@drawable/tile" />
+        <ImageView android:id="@+id/btn_mute" style="@style/Tile" android:src="@drawable/ic_mute" android:background="@drawable/tile" />
+        <ImageView android:id="@+id/btn_ch_down" style="@style/Tile" android:src="@drawable/ic_ch_down" android:background="@drawable/tile" />
+        <ImageView android:id="@+id/btn_ch_up" style="@style/Tile" android:src="@drawable/ic_ch_up" android:background="@drawable/tile" />
+    </LinearLayout>
+</LinearLayout>

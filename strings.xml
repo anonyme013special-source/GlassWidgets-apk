@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Glass Widgets</string>
+    <string name="remote_name">Télécommande Glass</string>
+    <string name="clock_name">Horloge Forever Glass</string>
+</resources>
